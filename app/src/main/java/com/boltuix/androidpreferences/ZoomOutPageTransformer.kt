@@ -8,6 +8,8 @@ import kotlin.math.abs
 private const val MIN_SCALE = 0.85f
 private const val MIN_ALPHA = 0.5f
 
+
+// Try more animation here : https://developer.android.com/develop/ui/views/animations/screen-slide-2
 class ZoomOutPageTransformer : ViewPager2.PageTransformer {
 
     override fun transformPage(view: View, position: Float) {

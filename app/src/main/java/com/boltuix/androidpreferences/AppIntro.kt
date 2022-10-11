@@ -115,17 +115,17 @@ class AppIntroViewPager2Adapter : RecyclerView.Adapter<PagerVH2>() {
             if (position == 0) {
                 bindingDesign.introTitle.text = context.getString(R.string.intro_title_1)
                 bindingDesign.introDescription.text = context.getString(R.string.intro_description_1)
-                bindingDesign.introImage.setImageResource(R.drawable.intro_ic_a_day_at_the_park)
+                bindingDesign.introImage.setImageResource(R.drawable.intro1)
             }
             if (position == 1) {
                 bindingDesign.introTitle.text = context.getString(R.string.intro_title_2)
                 bindingDesign.introDescription.text = context.getString(R.string.intro_description_2)
-                bindingDesign.introImage.setImageResource(R.drawable.intro_ic_directions)
+                bindingDesign.introImage.setImageResource(R.drawable.intro2)
             }
             if (position == 2) {
                 bindingDesign.introTitle.text = context.getString(R.string.intro_title_3)
                 bindingDesign.introDescription.text = context.getString(R.string.intro_description_3)
-                bindingDesign.introImage.setImageResource(R.drawable.intro_ic_hang_out)
+                bindingDesign.introImage.setImageResource(R.drawable.intro3)
             }
         }
     }
